@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run at the bottom options</title>
+    <link rel="stylesheet" href="../css/options.css">
+    <script type="text/javascript" src="../js/options.js"></script>
+</head>
+<body>
+    <form>
+        <h2><u>Run at the bottom</u></h2>
+        <b>select name</b>
+        <select size="5" name="select" id="select"></select>
+        <b>name</b>
+        <input type="text" id="name"></input>
+        <b>regular expression pattern for url matching</b>
+        <textarea type="text" id="regPattForURL"></textarea>
+        <b>script</b><!--   <font size="2">(Editable) *Add commented title on the first line</font> -->
+        <textarea id="script"></textarea>
+        <div class="button">
+            <!-- <input type="button" id="Save" value="Save"> -->
+            <button class="buttons" id="new">new</button>&emsp;
+            <button class="buttons" id="save">save</button>
+            <font size="2" id="If">*If name is the same, it will be overwritten</font>&emsp;
+            <button class="buttons" id="remove">remove</button>&emsp;
+            <button class="buttons" id="ConvRegExp">convReg</button>&emsp;
+            <button class="buttons" id="impexp">imp/exp</button>&emsp;
+            <button class="buttons" id="positon">pos.</button>
+        </div>
+    </form>
+</body>
+</html>

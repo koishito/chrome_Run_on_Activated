@@ -1,0 +1,22 @@
+{
+     "manifest_version": 2,
+     "name": "Run on activated",
+     "version": "0.1",
+     "permissions":[
+          "storage",
+          "unlimitedStorage",
+          "tabs",
+          "notifications",
+          "http://*/*",
+          "https://*/*",
+          "declarativeContent"
+     ],
+     "options_page": "html/options.html",
+     "background": {
+          "scripts": ["js/background.js"],
+          "persistent": false
+     },
+     "browser_action": {
+            "default_popup":"html/options.html"
+        }
+}

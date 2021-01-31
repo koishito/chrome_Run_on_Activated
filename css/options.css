@@ -1,0 +1,45 @@
+form{
+    width: 700px;
+    background-color: #eaeaea;
+    padding:10px 20px;
+    margin: 0 auto;
+    font-family: Verdana;
+}
+
+select{
+    width: 700px;
+    height: 112px;
+    box-sizing:border-box;
+    font-family: Verdana;
+}
+
+#name{
+    width: 700px;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+#regPattForURL{
+    resize: vertical;
+    height: 54px;
+    width: 700px;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+#script{
+    resize: vertical;
+    height: 234px;
+    width: 700px;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.button{
+    text-align:center;
+}
+
+.buttons{
+    display:inline-block;
+    background-color: silver;
+}
